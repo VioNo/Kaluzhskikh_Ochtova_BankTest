@@ -15,5 +15,7 @@
 
 ***
 ## Тестирование метода Credit
+Тест `Credit_WithValidAmount_UpdatesBalance` и тест `Credit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange`:
 ![изображение](https://github.com/user-attachments/assets/4024d91f-40d7-4bbc-ad7b-7dd7f6a23460)
-1. 
+Тесты успешно пройдены. Это означает, что оба метода корректно выбрасывают/не выбрасывают исключение, если запрошенная сумма меньше нуля или соответствует диапазону.
+
